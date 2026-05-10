@@ -1,0 +1,144 @@
+*
+{
+    margin: 0;
+    font-family: sans-serif;
+}
+.head
+{
+    position: absolute;
+    margin-top: -600px;
+    margin-left: 200px;
+}
+hr
+{
+    margin-top: -45px;
+    color: rgba(171, 165, 165, 0.313);
+}
+.se
+{
+    margin-top: -10px;
+    position: relative;
+}
+.head1
+{
+    display: none;
+}
+.kalyannone
+{
+    display: none;
+}
+.noneall
+{
+    display: none;
+}
+.flexh1
+{
+    display: flex;
+    margin-left: 100px;
+    gap: 200px;
+    margin-top: 50px;
+}
+.numbercolor
+{
+    background-color: #9B51E0;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    width: 10%;
+    padding: 8px;
+}
+
+
+
+
+@media (max-width:510px) 
+{
+    .kalyannone
+    {
+        display: block;
+    }
+    .wid
+    {
+        width: 390px;
+    }
+    .kalyannone1
+    {
+        display: none;
+    }
+    .head1
+    {
+        display: block;
+    }
+    .head11
+    {
+        width: 80px;
+        margin-top: -500px;
+        position: absolute;
+    }
+    .noneall
+    {
+        display: block;
+    }
+    .buton
+    {
+        background-color: fuchsia;
+        border-radius: 5px;
+        text-align: center;
+        padding: 5px;
+        width: 150px;
+        font-size: 12px;
+        position: absolute;
+        margin-top: -530px;
+        margin-left: 100px;
+        color: white;
+    }
+    .grey
+    {
+        background-color: grey;
+        border-radius: 5px;
+        padding: 5px;
+        width: 100px;
+        text-align: center;
+        color: white;
+        position: absolute;
+        margin-top: -530px;
+        margin-left: 270px;
+    }
+    .textnone
+    {
+        position: absolute;
+        margin-top: -470px;
+        color: white;
+        margin-left: 170px;
+    }
+    .buton1
+    {
+        background-color: orange;
+        color: white;
+        text-align: center;
+    }
+    .hookan
+    {
+        color: white;
+
+    }
+    .texthookan
+    {
+        color: white;
+        font-size: 13px;
+    }
+    .divtextnone
+    {
+        position: absolute;
+        margin-top: -350px;
+        margin-left: 20px;
+    }
+    .flexh1
+    {
+        display: block;
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+        margin-left: 40px;
+    }
+}
