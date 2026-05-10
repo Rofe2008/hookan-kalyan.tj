@@ -47,6 +47,45 @@ hr
     width: 10%;
     padding: 8px;
 }
+.howit
+{
+    text-align: center;
+    margin-top: 100px;
+}
+.fivephoto
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.photo
+{
+    background-color: rgb(255, 255, 255);
+    height: 270px;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px;
+}
+.photo1
+{
+    margin-left: 50px;
+    margin-top: 40px;
+    box-shadow: 0px 0px 5px 0px;
+    border-radius: 50%;
+    border: 3px solid orange;
+    padding: 1px;
+}
+.ninephoto
+{
+
+}
+.photo2
+{
+    background-color: red;
+    border-radius: 10px;
+    width: 200px;
+    height: 300px;
+}
 
 
 
@@ -140,5 +179,12 @@ hr
         flex-direction: column;
         row-gap: 30px;
         margin-left: 40px;
+    }
+    .fivephoto
+    {
+       margin-left: 100px;
+       display: flex;
+       flex-direction: column;
+       row-gap: 20px;
     }
 }
