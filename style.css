@@ -143,6 +143,17 @@ hr
     justify-content: space-around;
     margin-top: 50px;
 }
+.flexdiv
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.imghh
+{
+    display: flex;
+    justify-content: space-around;
+}
 
 
 @media (max-width:510px) 
